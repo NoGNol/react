@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "typeRoots": ["./node_modules/@types/"],
+        "jsx": "react",
+        "lib": ["es2015", "es2017", "dom"],
+        "target": "ESNext",
+        "module": "CommonJS",
+        "noImplicitAny": false,
+        "outDir": "../build/",
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "isolatedModules": false,
+        "baseUrl": "../src/"
+    },
+    "files": ["../src/app.tsx"],
+    "exclude": [
+        "node_modules"
+    ]
+}
